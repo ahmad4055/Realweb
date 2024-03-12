@@ -80,6 +80,11 @@ body {
 	margin-top: -30px;
 }
 @media (min-width: 1200px){
+	.jumbotron{
+		background: url('../images/jumbo_1200.jpeg')  no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f
+		border:2px solid #3f0c1f;
 
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -90,9 +95,22 @@ body {
  	height: 100px;
  	margin: 25px 0px 0px 0;
  }
-}
-@media (min-width: 768px) and (max-width: 991px){
 
+ 
+ .jumbotron{
+		background: url('../images/jumbo_992.jpeg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3f0c1f
+		border:2px solid #3f0c1f;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron{
+		background: url('../images/jumbo_786.jpeg') no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px #3f0c1f
+		border:2px solid #3f0c1f;
+	}
 }
 @media (max-width: 767px){
 	/*Header*/
@@ -112,11 +130,37 @@ body {
 	.navbar-brand p img {
 		height: 20px;
 	}
-}
 #collapsable-nav a {
 	font-size: 1.2em;
 }
 #collapsable-nav a span {
 	font-size: 1em;
 	margin-right: 10px;
+}
+#call-btn > a {
+	font-size: 1.5em;
+	display: block;
+	margin: 0 20px;
+	padding: 10px;
+	border:2px solid #fff;
+	background-color: #f6b319;
+	color: #951C49;
+}
+#xs-deliver {
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+ 
+.container .jumbotron{
+ 	margin-top: 30px;
+ 	padding-top: 0px;
+ 	box-shadow: 0 0 50px #3f0c1f;
+ 	border: 2px solid #3f0c1f;
+ }
+ .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+	}
 }
